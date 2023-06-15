@@ -1,7 +1,2 @@
 #!/bin/bash
-BINARY="101011"
-
-decimal_number=$(echo "ibase=2; obase=10; $BINARY" | bc)
-
-echo "Binary: $binary_number"
-echo "Decimal: $decimal_number"
+echo "ibase=2; obase=10; $BINARY" | bc
